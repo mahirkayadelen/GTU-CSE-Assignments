@@ -1,0 +1,63 @@
+overloaded stream insertion for days1
+1)Month : February, Day: 4
+
+2)Month : March, Day: 2
+
+3)Month : March, Day: 4
+
+
+overloaded stream insertion for days2
+1)Month : July, Day: 9
+
+2)Month : January, Day: 1
+
+3)Month : February, Day: 21
+
+4)Month : May, Day: 17
+
+
+overloaded == operator use for days1 and days2 result: 
+0
+overloaded != operator use for days1 and days2 result: 
+1
+remove function removes february 4 in days1
+new days1 set:
+1)Month : March, Day: 2
+
+2)Month : March, Day: 4
+
+size function for days1:2
+overloaded binary operator+ and adds july 20 element to days1:
+1)Month : March, Day: 2
+
+2)Month : March, Day: 4
+
+3)Month : July, Day: 20
+
+binary operator+ on days3 set(days1 + days2):
+1)Month : March, Day: 2
+
+2)Month : March, Day: 4
+
+3)Month : July, Day: 20
+
+4)Month : July, Day: 9
+
+5)Month : January, Day: 1
+
+6)Month : February, Day: 21
+
+binary operator- on days3 set(days1 - days2):
+1)Month : March, Day: 2
+
+2)Month : March, Day: 4
+
+3)Month : July, Day: 20
+
+overloaded binary operator- and deletes march 2 element to days3:
+1)Month : March, Day: 4
+
+2)Month : July, Day: 20
+
+overloaded binary operator[] for days3[1]:
+Month : July, Day: 20
